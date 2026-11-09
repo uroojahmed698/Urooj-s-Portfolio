@@ -3,6 +3,8 @@
 My portfolio website, includes about, projects, resume, and contact info.
 No build tools or package installation are required.
 
+Check it out at https://uroojportfolio-urooj7.vercel.app/
+
 ## Preview
 Open `index.html` in a browser, or use the VS Code Live Server extension to preview the site.
 
