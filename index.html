@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Urooj Ahmed is a Computer Science student at York University interested in software development and AI/ML."
+    />
+    <meta name="theme-color" content="#10100f" />
+    <title>Urooj Ahmed — Computer Science Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Urooj Ahmed, home">
+          <span class="wordmark-mark">U<span>.</span></span>
+          <span>UROOJ AHMED</span>
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="assets/Urooj_Ahmed_Resume_Tech.pdf" target="_blank" rel="noopener noreferrer">Resume <span class="nav-arrow" aria-hidden="true">↗</span></a>
+          <a
+            class="nav-github"
+            href="https://github.com/uroojahmed698"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section-wrap" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> OPEN TO INTERNSHIP OPPORTUNITIES</p>
+            <h1>Urooj Ahmed</h1>
+            <p class="hero-intro">
+              Hey, I’m a third-year Computer Science student at York
+              University interested in software development, AI/ML, and IT oppurtunities.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">
+                Explore my work <span aria-hidden="true">↘</span>
+              </a>
+              <a class="button button-quiet" href="assets/Urooj_Ahmed_Resume_Tech.pdf" target="_blank" rel="noopener noreferrer">
+                View resume <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+            <div class="hero-meta">
+              <span><span class="meta-icon">⌖</span> Toronto, Canada</span>
+              <span class="meta-divider" aria-hidden="true"></span>
+              <span>York University · BSc Honours</span>
+            </div>
+          </div>
+
+          
+          <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+        </section>
+
+        <section class="about section-wrap section-divider" id="about">
+          <div class="section-heading">
+            <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+            <h2>Making ideas<br />work in the real world.</h2>
+          </div>
+          <div class="about-content">
+            <p class="about-lead">
+              I’m a Computer Science student who enjoys turning a problem into something useful,
+              thoughtful, and easy to use.
+            </p>
+            <p>
+              I’m especially interested in software development and artificial intelligence. My
+              projects have taken me from building desktop apps with Java to full-stack web
+              experiences with React and Python. I’m currently looking for internship opportunities
+              open to Computer Science students, and I’m excited to keep learning alongside a team.
+            </p>
+            <div class="interest-list" aria-label="Areas of interest">
+              <span>Software development</span>
+              <span>Artificial intelligence</span>
+              <span>Machine learning</span>
+              <span>Full-stack applications</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects section-wrap section-divider" id="projects">
+          <div class="projects-heading">
+            <div class="section-heading">
+              <p class="eyebrow">02 / SELECTED WORK</p>
+              <h2>Things I’ve<br />been building.</h2>
+            </div>
+            <p class="projects-aside">
+              A few projects...
+            </p>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-featured">
+              <div class="project-visual visual-tutor">
+                <img class="project-screenshot" src="assets/tutor-assist.png" alt="Tutor Assist sign-in screen" />
+                <span class="project-index">01 — FULL STACK / AI</span>
+                <span class="visual-caption">Tutor sign-in and student tools.</span>
+              </div>
+              <div class="project-info">
+                <div class="project-title-line">
+                  <h3>Tutor Assist</h3>
+                  <a
+                    class="project-link"
+                    href="https://github.com/uroojahmed698/TutorAssist"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Tutor Assist on GitHub"
+                  >↗</a>
+                </div>
+                <p>
+                  An AI-powered tutoring platform for managing students, analyzing their work, and
+                  generating personalized progress reports for parents.
+                </p>
+                <div class="tech-list"><span>React</span><span>Python</span><span>FastAPI</span><span>MongoDB</span><span>Ollama</span></div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-packween">
+                <img class="project-screenshot" src="assets/packween.jpg" alt="PackWeen map showing candy houses and a planned trick-or-treat route" />
+                <span class="project-index">02 — WEB APP</span>
+                <span class="visual-caption">PackWeen in action.</span>
+              </div>
+              <div class="project-info">
+                <div class="project-title-line">
+                  <h3>PackWeen</h3>
+                  <div class="project-actions">
+                    <a class="project-live-link" href="https://pack-ween1.onrender.com/" target="_blank" rel="noopener noreferrer">Live demo ↗</a>
+                    <a class="project-link" href="https://github.com/homairah-cell/Pack_Ween1" target="_blank" rel="noopener noreferrer" aria-label="View PackWeen on GitHub">↗</a>
+                  </div>
+                </div>
+                <p>
+                  A Halloween neighborhood experience with themed routes, house visits, and a
+                  leaderboard for friendly competition.
+                </p>
+                <div class="tech-list"><span>React</span><span>JavaScript</span><span>Node.js</span><span>Express</span></div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-game">
+                <img class="project-screenshot" src="assets/tic-tac-toe.png" alt="Tic Tac Toe Java Swing game showing a completed round" />
+                <span class="project-index">03 — DESKTOP APP</span>
+                <span class="visual-caption">Java Swing game in play.</span>
+              </div>
+              <div class="project-info">
+                <div class="project-title-line">
+                  <h3>Tic Tac Toe</h3>
+                  <a class="project-link" href="https://github.com/uroojahmed698/TicTacToe_Game" target="_blank" rel="noopener noreferrer" aria-label="View Tic Tac Toe on GitHub">↗</a>
+                </div>
+                <p>
+                  A two-player classic with an interactive graphical game board, alternating turns,
+                  and a Java Swing interface.
+                </p>
+                <div class="tech-list"><span>Java</span><span>Java Swing</span></div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-visual visual-login">
+                <img class="project-screenshot" src="assets/employee-login.png" alt="Employee Login System sign-in and registration interface" />
+                <span class="project-index">04 — DESKTOP APP / DATABASE</span>
+                <span class="visual-caption">Employee sign-in and registration.</span>
+              </div>
+              <div class="project-info">
+                <div class="project-title-line">
+                  <h3>Employee Login System</h3>
+                  <a class="project-link" href="https://github.com/uroojahmed698/CompanyLoginSystem" target="_blank" rel="noopener noreferrer" aria-label="View Employee Login System on GitHub">↗</a>
+                </div>
+                <p>
+                  An employee registration and login app using unique registration codes, a
+                  Java Swing interface, and SQLite data storage.
+                </p>
+                <div class="tech-list"><span>Java</span><span>Java Swing</span><span>SQLite</span><span>JDBC</span></div>
+              </div>
+            </article>
+          </div>
+          <a class="all-projects-link" href="https://github.com/uroojahmed698?tab=repositories" target="_blank" rel="noopener noreferrer">
+            More on GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </section>
+
+        <section class="closing section-wrap section-divider" id="contact">
+          <div class="closing-content">
+            <div class="closing-mark" aria-hidden="true">✳</div>
+            <p class="eyebrow">03 / CONTACT INFO</p>
+            <h2>Connect with me.</h2>
+            <p class="closing-copy">
+              I’m looking for an internship where I can contribute, grow, and make a difference.
+              Have an opportunity in mind?
+            </p>
+            <div class="contact-actions">
+              <a class="button button-primary" href="https://github.com/uroojahmed698" target="_blank" rel="noopener noreferrer">
+                Find me on GitHub <span aria-hidden="true">↗</span>
+              </a>
+              <a class="button button-primary" href="https://www.linkedin.com/in/urooj-ahmed06/" target="_blank" rel="noopener noreferrer">
+                Connect on LinkedIn <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+          <div class="contact-details" aria-label="Contact information">
+            <a href="mailto:uroojahmed698@gmail.com">uroojahmed698@gmail.com</a>
+            <a href="mailto:urooja21@my.yorku.ca">urooja21@my.yorku.ca</a>
+            <a href="tel:+16477039875">(647) 703-9875</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer section-wrap">
+        <a class="wordmark footer-wordmark" href="#home">
+          <span class="wordmark-mark">U<span>.</span></span>
+          <span>UROOJ AHMED</span>
+        </a>
+        <p>Designed &amp; built with curiosity. <span>© <span id="current-year">2026</span> Urooj Ahmed</span></p>
+        <a href="#home" class="back-top">Back to top ↑</a>
+      </footer>
+    </div>
+  </body>
+</html>
